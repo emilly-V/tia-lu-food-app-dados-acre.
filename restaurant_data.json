@@ -1,0 +1,330 @@
+{
+  "itens": [
+    {
+      "id": 1,
+      "nome": "Tartar de Mignon",
+      "preco": 42.0,
+      "categoria": "Entrada",
+      "descricao": "filé mignon cru picado na ponta da faca com mix de chips e gema caipira"
+    },
+    {
+      "id": 2,
+      "nome": "Bruschetta",
+      "preco": 35.0,
+      "categoria": "Entrada",
+      "descricao": "Fatias de pão torrado com sal e azeite"
+    },
+    {
+      "id": 3,
+      "nome": "Croquete de cupim",
+      "preco": 38.0,
+      "categoria": "Entrada",
+      "descricao": "cupim assado no bafo empanado e frito"
+    },
+    {
+      "id": 4,
+      "nome": "Dadinho de Tapioca com leite de coco",
+      "preco": 39.0,
+      "categoria": "Entrada",
+      "descricao": "Com geleia de goiabada picante "
+    },
+    {
+      "id": 5,
+      "nome": "Carpaccio di Salmone",
+      "preco": 79.0,
+      "categoria": "Entrada",
+      "descricao": "salmão,azeite trufado, molho, chips de banana da terra"
+    },
+    {
+      "id": 6,
+      "nome": "Espaguete Carbonara ",
+      "preco": 96.0,
+      "categoria": "Principal",
+      "descricao": "Espaguete Carbonara, flambado com parmesão, finalizado com bacon, farofa brioche maison e gema de ovo caipira"
+    },
+    {
+      "id": 7,
+      "nome": "Paleta de Cordeiro",
+      "preco": 129.0,
+      "categoria": "Principal",
+      "descricao": "Cordeiro assado lentamente com farofa de brioche, cebola crispy, fondant de parmesão"
+    },
+    {
+      "id": 8,
+      "nome": "Lasanha della nonna",
+      "preco": 99.0,
+      "categoria": "Principal",
+      "descricao": "massa fresca recheada a bolonhesa com molho de tomate e gratinada com mix de queijos"
+    },
+    {
+      "id": 9,
+      "nome": "Risotto de limão siciliano com Porchetta",
+      "preco": 69.0,
+      "categoria": "Principal",
+      "descricao": "Barriga de porco enrolada e crocante sobre risoto cremoso"
+    },
+    {
+      "id": 10,
+      "nome": "Lulas/Linguine/Pesto",
+      "preco": 71.0,
+      "categoria": "Principal",
+      "descricao": "lulas grelhadas sobre linguine ao pesto, molho romesco, tomates, uvas e brócolis"
+    },
+    {
+      "id": 11,
+      "nome": "Cannoli ao Caramelo e Nutela",
+      "preco": 36.0,
+      "categoria": "Sobremesa",
+      "descricao": "Massa tradicional crocante recheada com doce de leite e nutela e sorvete de creme"
+    },
+    {
+      "id": 12,
+      "nome": "Esfera de Chocolate",
+      "preco": 49.0,
+      "categoria": "Sobremesa",
+      "descricao": "Esfera de chocolate amargo recheado de duo de mousses, chocolate branco e chocolate amargo, cheesecake brownie, coberto por algodão doce"
+    },
+    {
+      "id": 13,
+      "nome": "Bolo de aipim/Sorvete ",
+      "preco": 38.0,
+      "categoria": "Sobremesa",
+      "descricao": "Bolo de aipim com coco, finalizado com doce de leite, sorvete de creme"
+    },
+    {
+      "id": 14,
+      "nome": "Torta de Morango",
+      "preco": 35.0,
+      "categoria": "Sobremesa",
+      "descricao": "Com sorvete de creme"
+    },
+    {
+      "id": 15,
+      "nome": "Petit Gateau",
+      "preco": 42.0,
+      "categoria": "Sobremesa",
+      "descricao": "bolo com chocolate derretido dentro acompanhado de sorvete de creme"
+    },
+    {
+      "id": 16,
+      "nome": "Heineken",
+      "preco": 17.0,
+      "categoria": "Bedidas",
+      "descricao": "Teor alcóolico 5%, 600ml"
+    },
+    {
+      "id": 17,
+      "nome": "Amstel Ultra",
+      "preco": 14.0,
+      "categoria": "Bebidas",
+      "descricao": "Teor Alcóolico 4%, 275ml"
+    },
+    {
+      "id": 18,
+      "nome": "Água Mineral ",
+      "preco": 7.0,
+      "categoria": "Bebidas",
+      "descricao": "agua"
+    },
+    {
+      "id": 19,
+      "nome": "Mojito Napoli",
+      "preco": 35.0,
+      "categoria": "Bebidas",
+      "descricao": "Rum Branco, tangerina,suco de limão,hortelã e agua com gás"
+    },
+    {
+      "id": 20,
+      "nome": "Negroni",
+      "preco": 47.0,
+      "categoria": "Bebidas",
+      "descricao": "campari, vermouth rosso e gin"
+    }
+  ],
+  "orders": [
+    {
+      "order_number": 1,
+      "items": [
+        {
+          "item_id": 3,
+          "nome": "Croquete de cupim",
+          "preco": 38.0,
+          "quantidade": 1
+        },
+        {
+          "item_id": 8,
+          "nome": "Lasanha della nonna",
+          "preco": 99.0,
+          "quantidade": 1
+        },
+        {
+          "item_id": 15,
+          "nome": "Petit Gateau",
+          "preco": 42.0,
+          "quantidade": 1
+        },
+        {
+          "item_id": 20,
+          "nome": "Negroni",
+          "preco": 47.0,
+          "quantidade": 1
+        },
+        {
+          "item_id": 6,
+          "nome": "Espaguete Carbonara ",
+          "preco": 96.0,
+          "quantidade": 1
+        }
+      ],
+      "total": 322.0,
+      "status": "aceito",
+      "cliente": "Emily"
+    },
+    {
+      "order_number": 2,
+      "items": [
+        {
+          "item_id": 7,
+          "nome": "Paleta de Cordeiro",
+          "preco": 129.0,
+          "quantidade": 1
+        },
+        {
+          "item_id": 9,
+          "nome": "Risotto de limão siciliano com Porchetta",
+          "preco": 69.0,
+          "quantidade": 1
+        },
+        {
+          "item_id": 11,
+          "nome": "Cannoli ao Caramelo e Nutela",
+          "preco": 36.0,
+          "quantidade": 2
+        },
+        {
+          "item_id": 16,
+          "nome": "Heineken",
+          "preco": 17.0,
+          "quantidade": 1
+        }
+      ],
+      "total": 287.0,
+      "status": "aceito",
+      "cliente": "Alec"
+    },
+    {
+      "order_number": 3,
+      "items": [
+        {
+          "item_id": 1,
+          "nome": "Tartar de Mignon",
+          "preco": 42.0,
+          "quantidade": 2
+        },
+        {
+          "item_id": 11,
+          "nome": "Cannoli ao Caramelo e Nutela",
+          "preco": 36.0,
+          "quantidade": 22
+        },
+        {
+          "item_id": 8,
+          "nome": "Lasanha della nonna",
+          "preco": 99.0,
+          "quantidade": 2
+        },
+        {
+          "item_id": 18,
+          "nome": "Água Mineral ",
+          "preco": 7.0,
+          "quantidade": 2
+        }
+      ],
+      "total": 1088.0,
+      "status": "aceito",
+      "cliente": "Elena"
+    },
+    {
+      "order_number": 4,
+      "items": [
+        {
+          "item_id": 4,
+          "nome": "Dadinho de Tapioca com leite de coco",
+          "preco": 39.0,
+          "quantidade": 2
+        },
+        {
+          "item_id": 3,
+          "nome": "Croquete de cupim",
+          "preco": 38.0,
+          "quantidade": 1
+        },
+        {
+          "item_id": 13,
+          "nome": "Bolo de aipim/Sorvete ",
+          "preco": 38.0,
+          "quantidade": 3
+        },
+        {
+          "item_id": 6,
+          "nome": "Espaguete Carbonara ",
+          "preco": 96.0,
+          "quantidade": 3
+        },
+        {
+          "item_id": 19,
+          "nome": "Mojito Napoli",
+          "preco": 35.0,
+          "quantidade": 3
+        }
+      ],
+      "total": 623.0,
+      "status": "aceito",
+      "cliente": "Matteo"
+    },
+    {
+      "order_number": 5,
+      "items": [
+        {
+          "item_id": 2,
+          "nome": "Bruschetta",
+          "preco": 35.0,
+          "quantidade": 2
+        },
+        {
+          "item_id": 7,
+          "nome": "Paleta de Cordeiro",
+          "preco": 129.0,
+          "quantidade": 2
+        },
+        {
+          "item_id": 13,
+          "nome": "Bolo de aipim/Sorvete ",
+          "preco": 38.0,
+          "quantidade": 2
+        },
+        {
+          "item_id": 17,
+          "nome": "Amstel Ultra",
+          "preco": 14.0,
+          "quantidade": 2
+        },
+        {
+          "item_id": 20,
+          "nome": "Negroni",
+          "preco": 47.0,
+          "quantidade": 1
+        },
+        {
+          "item_id": 10,
+          "nome": "Lulas/Linguine/Pesto",
+          "preco": 71.0,
+          "quantidade": 2
+        }
+      ],
+      "total": 621.0,
+      "status": "aceito",
+      "cliente": "Maria Hellena"
+    }
+  ]
+}
